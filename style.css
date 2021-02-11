@@ -116,6 +116,7 @@ nav img {
     border-color: dimgrey;
 }
 .post-header {
+    display: none;
     padding-bottom: 30px;
     font-family: 'Advent Pro', sans-serif;
     font-weight: 550;
@@ -128,6 +129,14 @@ nav img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+}
+.post-header:hover {
+    display: block;
+    
+}
+.container img:hover + .post-header {
+    display: block;
     
 }
 footer {
